@@ -1,6 +1,8 @@
 import customtkinter as ctk
 import json
 import os
+import subprocess
+import sys
 
 # - Aparência
 ctk.set_appearance_mode("dark")
@@ -29,7 +31,9 @@ def validar_login():
     senha = campo_senha.get()
 
     if usuario in usuarios and usuarios[usuario] == senha:
-        resultado_login.configure(text="Login feito com sucesso", text_color="green")
+       resultado_login.configure(text="Login feito com sucesso", text_color="green")
+       app.destroy()  # Fecha a janela de login
+       subprocess.Popen([sys.executable, "overview.py"])
     else:
         resultado_login.configure(text="Login incorreto", text_color="red")
 
