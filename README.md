@@ -9,7 +9,7 @@ Em seguida, você será direcionado para o overview do aplicativo onde poderá a
 A página do Mapa Mundi contém os dados mais recentes dos países selecionados do datasete, cada país representando um continente (faltando apenas da Oceania porque o datasete não possuia nenhum país desse continente). 
 Esses dados podem ser vistos ao passar o mouse por cima do país destacado.
 
-Na página das tabelas, é possível visualizar os dados através de uma tabela que contém os países, seus repectivos continentes, o ano, casos de tuberculose do ano, mortes por tuberculose referente ao ano, taxas de incidência, mortalidade e de sucesso de tratamento referente ao ano.
+Na página das tabelas, é possível visualizar os dados através de uma tabela que contém os países, seus repectivos continentes, o ano, casos de tuberculose do ano, mortes por tuberculose referente ao ano, taxas de incidência, mortalidade e de sucesso de tratamento referente ao ano. Além disso, é possível também pesquisar o páis e o ano para encontrar algum dado desejado. Também há um botão de cadastrar, editar (CRUD) onde é possível inserir novos dados, editá-los ou excluí-los
 
 Na página de gráficos, é possível ver quatro gráficos referentes aos dados dos países, cada um abordando os dados a partir de um "ponto de vista" diferente.
 
